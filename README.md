@@ -49,3 +49,19 @@ Benefits include:
 - Better maintainability
 
 ---
+## 🛠️ SQL Concepts Covered
+
+### Standard Views
+```sql
+CREATE VIEW EmployeeView AS
+SELECT EmployeeID, FullName, Department
+FROM Employees;
+```
+
+### Filtered Views
+```sql
+CREATE VIEW ActiveEmployees AS
+SELECT *
+FROM Employees
+WHERE IsActive = 1;
+```

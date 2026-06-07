@@ -73,3 +73,13 @@ FROM Employees e
 JOIN Departments d
 ON e.DepartmentId = d.Id;
 ```
+### Aggregated Views
+```sql
+CREATE VIEW DepartmentStatistics AS
+SELECT DepartmentId,
+       COUNT(*) AS TotalEmployees
+FROM Employees
+GROUP BY DepartmentId;
+```
+
+---

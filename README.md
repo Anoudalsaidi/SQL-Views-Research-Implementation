@@ -65,3 +65,11 @@ SELECT *
 FROM Employees
 WHERE IsActive = 1;
 ```
+### Join Views
+```sql
+CREATE VIEW EmployeeDepartments AS
+SELECT e.FullName, d.DepartmentName
+FROM Employees e
+JOIN Departments d
+ON e.DepartmentId = d.Id;
+```

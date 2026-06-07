@@ -34,3 +34,18 @@ The goal is to understand how Views improve data abstraction, security, and quer
 - Demonstrate practical implementation scenarios
 
 ---
+## 📚 What Are SQL Views?
+
+A SQL View is a virtual table based on the result of a SQL query.
+
+Views do not store data themselves; instead, they retrieve data dynamically from underlying tables whenever queried.
+
+Benefits include:
+
+- Data abstraction
+- Enhanced security
+- Simplified query writing
+- Reusable business logic
+- Better maintainability
+
+---

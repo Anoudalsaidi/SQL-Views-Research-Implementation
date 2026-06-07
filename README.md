@@ -9,3 +9,18 @@
 A research-based project demonstrating the concept, implementation, and practical usage of SQL Views in relational databases using SQL Server.
 
 ---
+## 📌 Overview
+
+This project explores SQL Views from both theoretical and practical perspectives.
+
+The repository includes:
+
+- Research and documentation about SQL Views
+- SQL implementation examples
+- Real-world use cases
+- Advantages and limitations of Views
+- Query optimization considerations
+
+The goal is to understand how Views improve data abstraction, security, and query reusability in database systems.
+
+---

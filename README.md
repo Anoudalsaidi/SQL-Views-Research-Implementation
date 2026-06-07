@@ -24,3 +24,13 @@ The repository includes:
 The goal is to understand how Views improve data abstraction, security, and query reusability in database systems.
 
 ---
+## 🎯 Objectives
+
+- Understand the purpose of SQL Views
+- Learn how to create and manage Views
+- Explore different View types
+- Improve database security through Views
+- Simplify complex SQL queries
+- Demonstrate practical implementation scenarios
+
+---

@@ -141,3 +141,11 @@ Provide developers with cleaner interfaces to complex database structures.
 - Logical data abstraction
 
 ---
+## ⚠️ Limitations
+
+- Complex Views may affect performance
+- Some Views are not updateable
+- Dependency management can become challenging
+- Indexed Views require additional storage
+
+---
